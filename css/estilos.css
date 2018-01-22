@@ -1,0 +1,12 @@
+
+header{
+  background-color:  #5b7989;
+  -webkit-border-radius: 10px 10px 0px 0px
+}
+
+.cabecera{
+  text-align: left;
+  text-shadow: 2px #02010a;
+  color: White;
+  padding: 20px;
+}
