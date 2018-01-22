@@ -6,7 +6,11 @@ header{
 
 .cabecera{
   text-align: left;
-  text-shadow: 2px #02010a;
+  text-shadow: 2px 2px 2px #02010a;
   color: White;
   padding: 20px;
+  display
+}
+.menu{
+  text-align: right;
 }
