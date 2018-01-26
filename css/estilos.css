@@ -43,26 +43,24 @@ a {
    background-color: #d5c75f;
    border: 1px;}
 
-#paisajes img{
-float:right;
+#paisajes{
+float:left;
 margin: 0 auto;
 padding: 20px;
-width: 50%;}
+width: 350px;}
 
-#paisajes img:hover{
+#paisajes:hover{
   transform: rotate(10deg);
   filter: drop-shadow(2px 2px 2px #82c3a6);
   border: 2px;}
 
-#retratos img{
-  float:left;
-  text-align: center;
+#retratos{
+  float:right;
   margin: 0 auto;
-  padding: 20px;
-  width: 50%
+  padding: 30px;
+  width: 350px;}
 
-}
-#retratos img:hover{
+#retratos:hover{
   transform: translate(20px,-5px);
   filter: drop-shadow(2px 2px 2px #82c3a6);
   border: 2px;
@@ -90,28 +88,31 @@ footer {
 .Término{
   margin: 0px auto;
   padding: 20px;
+  padding-left: 20px;
   float:inherit;
   width: 20%;
 }
-.redes{
-  margin: 0px auto;
+.redes{display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   float: inherit;
+  padding: 20px;
   padding-left: 30px;
   width: 30%;
-  padding-top: 20px;
+  display: inline-block;
 
 }
 .derechos{
   margin: 0px auto;
   float: right;
-  padding-top: 20px
+  padding-top: 20px;
   padding-right: 30px;
   width: 30%
 }
 
-#twi{ display:inline}
-#twi + p{ display: inline;}
-#face{ display: inline;}
+#twi{  display:inline;}
+#twi + p{ display: inline; }
+#face{ display:block inline;}
 #face + p{ display: inline;}
 #ints{  display: inline;}
 #ints + p{  display: inline;}
