@@ -1,16 +1,161 @@
 
-header{
-  background-color:  #5b7989;
-  -webkit-border-radius: 10px 10px 0px 0px
+  body{
+  font-family: 'Dancing Script', cursive;
+  background-color: #02010a;
 }
 
-.cabecera{
-  text-align: left;
+.contenido{
+  width: 900px;
+  display:flex;
+  flex-direction: column;
+  margin: auto;}
+
+header {
+ background-color: #5b7989;
+  -webkit-border-radius: 10px 10px 0px 0px;}
+
+.cabecera {
+  margin: 0 auto;
   text-shadow: 2px 2px 2px #02010a;
   color: White;
-  padding: 20px;
-  display
-}
-.menu{
+  padding-top: 10px;}
+
+a {
+  color: White;
+  text-decoration: none;}
+
+.menu {
   text-align: right;
+  padding-right: 25px;
+  font-size: 1.5em;}
+
+#foto1 {
+  background-color: #82c3a6;
+  text-align: center;
+  margin: 0 auto;}
+#foto1 img{
+  width: 70%;}
+
+.contenedor {
+  width: 100%;
+   display:flex;
+   flex-direction: row;
+   background-color: #d5c75f;
+   border: 1px;}
+
+#paisajes img{
+float:right;
+margin: 0 auto;
+padding: 20px;
+width: 50%;}
+
+#paisajes img:hover{
+  transform: rotate(10deg);
+  filter: drop-shadow(2px 2px 2px #82c3a6);
+  border: 2px;}
+
+#retratos img{
+  float:left;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%
+
+}
+#retratos img:hover{
+  transform: translate(20px,-5px);
+  filter: drop-shadow(2px 2px 2px #82c3a6);
+  border: 2px;
+}
+
+h3{
+font-family: 'Dancing Script', cursive;
+font-size: 1e,
+}
+
+footer {
+  width: 100%;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction:row;
+
+}
+.contacto{
+  margin: 0px auto;
+  float: left;
+  padding: 20px;
+  width: 20%;
+}
+.Término{
+  margin: 0px auto;
+  padding: 20px;
+  float:inherit;
+  width: 20%;
+}
+.redes{
+  margin: 0px auto;
+  float: inherit;
+  padding-left: 30px;
+  width: 30%;
+  padding-top: 20px;
+
+}
+.derechos{
+  margin: 0px auto;
+  float: right;
+  padding-top: 20px
+  padding-right: 30px;
+  width: 30%
+}
+
+#twi{ display:inline}
+#twi + p{ display: inline;}
+#face{ display: inline;}
+#face + p{ display: inline;}
+#ints{  display: inline;}
+#ints + p{  display: inline;}
+#copy{ display: inline;}
+#copy + p{ display: inline;}
+
+@media (min-width:px) {
+  .contenido{
+    width: 100%;}
+
+header nav section figure{
+width: 100%;
+padding: 10px;}
+
+.cabecera .menu {
+  width: 100%;}
+
+.contenedor{
+  width: 100%;
+  display:flex;
+  flex-direction: column;}
+
+.paisajes {
+  width: 100%;
+float: left;;}
+
+  .retratos {
+    width: 100%;
+    float: left;
+  }
+
+a { text-align: center;
+    font-size: 1em;}
+
+h1 {
+  text-align: center;
+  font-size: 3em;}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;}
+
+    .redes .termino .contacto .derechos {
+      width: 100%;
+      margin: 0 auto; }
 }
