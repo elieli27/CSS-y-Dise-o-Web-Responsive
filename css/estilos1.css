@@ -6,7 +6,20 @@ background-color: #02010a;}
   width: 900px;
   display:flex;
   flex-direction: column;
-  margin: auto;}
+  margin: auto;
+animation: laanimacion 2s}
+
+  @-webkit-keyframes laanimacion {
+    0%{
+      margin-top: 150%
+    }
+    60{
+      margin-top: -5
+    }
+    100%{
+      margin-top: 0
+    }
+  }
 
   header {
    background-color: #5b7989;
@@ -109,3 +122,57 @@ footer {
 #ints + p{  display: inline;}
 #copy{ display: inline;}
 #copy + p{ display: inline;}
+
+@media (max-width:900px) {
+  .contenido{
+    width: 100%;}
+
+header nav section {
+width: 100%;
+padding: 10px;}
+
+figure{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;}
+
+img{ width: 100%;
+margin: 0 auto;}
+
+.cabecera .menu {
+  width: 100%;}
+
+.contenedor{
+  width: 100%;
+  display:flex;
+  flex-direction: column;}
+
+.paisajes {
+width: 50%;
+width: 220px;
+float: none;}
+
+  .retratos {
+    width: 50%;
+    width: 250px;
+    float:none;}
+
+a { text-align: center;
+    font-size: 1em;}
+
+h1 {
+  text-align: center;
+  font-size: 3em;}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;}
+
+    .redes .termino .contacto .derechos {
+      width: 100%;
+      margin: 0 auto;
+     }
+
+}
